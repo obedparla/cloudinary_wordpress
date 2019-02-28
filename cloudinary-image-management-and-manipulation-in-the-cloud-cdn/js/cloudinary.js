@@ -109,15 +109,9 @@ jQuery(function() {
           break;
         }        
       },
-      onReady: function() {
-        controller.resizeWatcher();
-      }
     }),
     currentWidth: 0,
     currentHeight: 0,
-    resizeWatcher: function() {      
-      jQuery(window).resize(update_window_dimensions);
-    }
   };  
 
   function register_edit_image() {
